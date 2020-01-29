@@ -2,37 +2,23 @@
 Creation of a Chatbot which could possibly understand your messages and respond to it
 
 ## Installation of chatterbot (any one)
+Install from Python index package(preferred). In your command prompt, type
+### pip install chatterbot
+NB: 0.8.6 is a good stable version for chatterbot. To install this veresion,
+### pip install chatterbot==0.8.6
+  
 
-a)Install from Python index package(preferred)
-  NB: 0.8.6 is a good stable version for chatterbot
-  pip install chatterbot
--------------------------------------------------------------------------------------------------------
-b)Install directly from github (You may need to install git)
-  pip install git+git://github.com/gunthercox/ChatterBot.git@master
--------------------------------------------------------------------------------------------------------
-c)Install from source(You may need to install git)
-  i) Download a copy of code from github
-  git clone https://github.com/gunthercox/ChatterBot.git
-  ii)Install it
-  pip install ./ChatterBot
---------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------
-
-Bot installation moment and runtime ERRORS and SOLUTIONS
---------------------------------------------------------------------------------------------------------
-1) Check internet connection, make sure to have speed enough stable data supply.
-2) If jupyter use !pip 
-3) If PyYAML is a problem, use --user
+## Bot installation moment and runtime ERRORS and SOLUTIONS
+1. Check internet connection, make sure to have speed enough stable data supply.
+2. If you are using any online interpreters like jupyter use !pip instead of pip
+3. Restart kernel after installation of packages
+4. If PyYAML is a problem, use --user
    a) pip install --user --ignore-installed pyYAML
    b) pip install --user chatterbot==0.8.6
-4) Clock attribute error is a Python 3.8.x version error, it might still be under development
-   degrade to 3.7.x version as this version is stable
-5) Restart kernel after installation of packages
--------------------------------------------------------------------------------------------------------
-6) IDLE subprocess connection failed error. Delete conflicting library named "your own" python programs
-7) No module error. Delete conflicting file and make sure to name it with different one
-8) EOL - Punctuation checking should be done
-9) "\" to "/" in windows machines
-12) BASIC ERROR is SYNTAX ERROR. Recheck and debug your program. Check for typo errors.
--------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------
+5. Clock attribute error is expected to be a Python 3.8.x version error, it might still be under development
+   degrade to 3.7.x version as this version is stable. Download 3.7.x version Python from www.python.org
+6. IDLE subprocess connection failed error. Sometimes, you might have named your program like "chatterbot" or any other similar name which will conflict with the library file which also comes with the same name "chatterbot". Delete conflicting file and rename the program with a different name.
+7. No module error. Solution same as point 6.
+8. EOL - Punctuation checking should be done
+9. "\" to "/" in windows machines
+10. BASIC ERROR is SYNTAX ERROR. Recheck and debug your program. Check for typo errors.
