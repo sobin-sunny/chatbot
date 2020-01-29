@@ -1,10 +1,10 @@
 # Chatbot
 Creation of a Chatbot which could possibly understand your messages and respond to it
 
-## Installation of chatterbot (any one)
+## Installation of chatterbot
 Install from Python index package(preferred). In your command prompt, type
 #### pip install chatterbot
-NB: 0.8.6 is a good stable version for chatterbot. To install this veresion,
+NB: 0.8.6 is a good stable version for chatterbot. To install this version,
 #### pip install chatterbot==0.8.6
   
 
