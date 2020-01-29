@@ -16,5 +16,5 @@ while(1):
     if(message!="Bye" or message!="bye"):
         print("{}: {}".format(bot.name,bot.get_response(message)))
     if(message=="Bye" or message=="bye"):
-              print("{}: I will really miss you. Bye".format(bot.name))
-              break
+        print("{}: I will really miss you. Bye".format(bot.name))
+        break
